@@ -9,6 +9,7 @@ r1 = Rectangle(10, 5)
 r2 = Rectangle(20, 10)
 r3 = Rectangle(30, 15)
 r4 = Rectangle(40, 20)
+print("iterating through the objects without list")
 for r in [r1, r2, r3, r4]:
     print(r.get_dimensions())
 #or we can store the object in  a list and iterate through the list
@@ -17,5 +18,6 @@ list_rect.append(r1)
 list_rect.append(r2)    
 list_rect.append(r3)
 list_rect.append(r4)
+print("iterating through the objects with list")
 for r in list_rect:
     print(r.get_dimensions())
