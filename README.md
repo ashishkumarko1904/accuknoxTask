@@ -4,7 +4,7 @@ the **master branch** contains the code for django related question
 and the code for python class in **rect branch**
 
 Answers for the question can be found in  the document 
-[here:](https://docs.google.com/document/d/12xkSsLQMTu73oS67bDi53ZXw88KpopelBVA5IAUvZmg/edit?usp=sharing)
+[here](https://docs.google.com/document/d/12xkSsLQMTu73oS67bDi53ZXw88KpopelBVA5IAUvZmg/edit?usp=sharing)
 
 
 ## Instructions for running the code of the master branch 
