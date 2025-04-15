@@ -6,38 +6,38 @@ and the code for python class in **rect branch**
 ## Instructions for running the code of the master branch 
 
 1. Ensure that you have python installed 
+you can check it by running
+'''bash
 
-    you can check it by running
-    '''bash
-        python --version
+     python --version
 
 2. download a tool for creating virtual environment (if not already installed)
-
-  use the command below to install the virtual env tool 
+use the command below to install the virtual env tool 
 
     pip install virtualenv
 
 
 
 3.created a virtual environment ,make a directory 
-
-    create virtual enviroment and activate it  by using the commands give below:
+create virtual enviroment and activate it  by using the commands give below:
+    
     python -m venv venv
     source venv/bin/activate
 
- for windows run command : your_env_name\Scripts\activate
+for windows run command :
+    
+    your_env_name\Scripts\activate
 
-4. cd your_directory
-
-    after activating the environment create a directory by running
+4. create a directory:
+after activating the environment create a directory by running
 
     mkdir your_dir
 
-    now open it by running
+now open it by running
 
     cd your_dir
 
-    open in vscode(or open in editor of your choice),use the command below to open in vscode it will open the current folder in vscode
+open in vscode(or open in editor of your choice),use the command below to open in vscode it will open the current folder in vscode
 
     code .
 
@@ -45,22 +45,22 @@ and the code for python class in **rect branch**
 
 
 5.install django
-    run the command given below to install django:
+run the command given below to install django:
 
     pip install django 
 
 now clone the repository in your_directory with 
 
-git clone "https://github.com/ashishkumarko1904/accuknoxTask.git"
+    git clone "https://github.com/ashishkumarko1904/accuknoxTask.git"
 
 
 6.You do not need any database setup as the project uses sqllite which comes with django itself
  so  run the following commands in your vscode terminal(make sure you are in the project folder) to make migrations to your database
 
- python manage.py makemigrations
- python manage.py migrate
+    python manage.py makemigrations
+    python manage.py migrate
 
-7. to run the server  run the command given below in your vscode terminal
+7.to run the server  run the command given below in your vscode terminal
 
     python manage.py runserver
 
@@ -85,4 +85,11 @@ task3:
 
 task4:
 ![output](docs/assets/Rectangle.png)
+
+to observe the synchronous and blocking behaviour of the django signals either run the code of the master on your system or watch the video given below:
+
+
+[![Watch the demo video](https://img.youtube.com/vi/IhlHQmkizhE/0.jpg)](https://youtu.be/IhlHQmkizhE)
+
+👉 [Click here to open the video on YouTube](https://youtu.be/IhlHQmkizhE)
 
